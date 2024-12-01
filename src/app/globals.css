@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #7EC8FF, #66D6D1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#logo{
+  letter-spacing: 3px;
+}
+
+.overlay-text-size {
+  font-size: 20px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6)
+}
